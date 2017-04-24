@@ -2868,6 +2868,7 @@ namespace BitMiracle.Tiff2Pdf
                     written += writeToFile("/CCITTFaxDecode ");
                     written += writeToFile("/DecodeParms ");
                     written += writeToFile("<< /K -1 ");
+                    written += writeToFile("/EncodedByteAlign true ");
                     
                     if (tile == 0)
                     {
